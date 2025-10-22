@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  background-image: url(imagen1.3.jpg);
+}
+
+
+header {
+  background-color: #ED2395;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8eceb;
+  padding: 30px 0;
+}
+
+.portada img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #2c051a;
+  box-shadow: 0 4px 15px rgba(15, 15, 15, 6.2);
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #FF0090;
+
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #50A85D;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #F5008B;
+
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+}
+
+h2 {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: rgb(249, 217, 255);
+  margin-top: -60px;
+  text-align: center;
+  text-shadow: 10px 8px 10px black;
+}
+
+p {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.redes {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.redes a {
+  margin: 0 10px;
+  text-decoration: solid;
+}
+
+.redes i {
+  font-size: 28px;
+  color: white;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.redes i:hover {
+  color: #DB23E4;
+  transform: scale(1.2);
+}
+
+#experiencia {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+label {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+h1 {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* .cuadro {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  position: relative;
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+} */
